@@ -1,0 +1,34 @@
+body{
+    background-color: #bfe7e7;
+}
+#existing{
+    background-color: #cfe2e2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#img{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+   
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+  }
+  .image-container {
+    width: 300px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .cropped-image {
+    width: 115%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
